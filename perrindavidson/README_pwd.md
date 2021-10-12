@@ -6,4 +6,4 @@ This is my (Perrin's) subdirectory within the ERG's Data Analysis working group 
 I'm a Fourth Year at UChicago studying Physics, Applied Mathematics, and Statistics. My research is concerned with developing computational models of the ocean, with a particular interest in how physical systems impact chemical and biological ones.
 
 ## Contact
-You can contact me at pwd@uchicago. I am always interested in talking about research, bluegrass, lacrosse, or skiing. 
+You can contact me at <pwd@uchicago.edu>. I am always interested in talking about research, bluegrass, lacrosse, or skiing! 
