@@ -1,0 +1,32 @@
+# To build this environment run:
+# conda env create --name ERG --file ERG_env.yml --force
+#
+name: ERG
+channels:
+  - defaults
+#  - conda-forge
+dependencies:
+  - python==3.7.*
+  - numpy==1.19.*
+  - pandas==1.*
+  - scikit-learn==0.23.*
+  - matplotlib==3.*
+  - geopandas
+  - mapclassify
+  - descartes
+#  - tensorflow>2
+#  - pytorch>=1.8
+  - h5py
+  - cartopy
+  - tqdm
+  - jupyterlab
+  - spyder
+  - psutil
+  - pytest
+  - pip
+  - pip:
+     - purpleair
+     - adjustText
+     - pyhdf
+#    - git+https://github.com/atomistic-machine-learning/schnetpack.git@master
+#    - tensorflow>2
