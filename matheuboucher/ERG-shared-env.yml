@@ -1,4 +1,4 @@
-name: ERG_Greenspace_Environmnet
+name: ERG_Greenspace_Env
 channels:
   - conda-forge
   - defaults
