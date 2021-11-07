@@ -1,3 +1,6 @@
+# For updating this environment.
+# conda env update --file ERG_Greenspace_Env.yml --prune
+
 name: ERG_Greenspace_Env
 channels:
   - conda-forge
