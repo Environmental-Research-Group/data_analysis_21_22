@@ -1,16 +1,8 @@
-# This is a sample Python script.
+import ee
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# Initialize the Earth Engine module.
+ee.Initialize()
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
+# Print metadata for a DEM dataset.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+   print(ee.Image('USGS/SRTMGL1_003').getInfo())
